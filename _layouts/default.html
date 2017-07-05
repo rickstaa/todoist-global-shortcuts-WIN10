@@ -1,75 +1,73 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: " en-US " }}">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <meta name="description" content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width,maximum-scale=2">
+  <meta name="description" content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-    <title>{{ site.title | default: site.github.repository_name }}</title>
-    <!-- Place this tag in your head or just before your close body tag. -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </head>
+  <title>{{ site.title | default: site.github.repository_name }}</title>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
 
-  <body>
+<body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+  <!-- HEADER -->
+  <div id="header_wrap" class="outer">
+    <header class="inner">
+      <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
 
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2> {% if site.show_downloads %}
+      <section id="downloads">
+        <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
+      </section>
+      {% endif %}
+    </header>
+  </div>
 
-          {% if site.show_downloads %}
-            <section id="downloads">
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-            </section>
-          {% endif %}
-        </header>
-    </div>
+  <!-- MAIN CONTENT -->
+  <div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
+      <!-- Github buttons -->
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-<!-- Github buttons -->
-        <!-- Place this tag where you want the button to render. -->
-        <a class="github-button" href="https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download rickstaa/Todoist_Global_Shortcuts_WIN10 on GitHub">Download</a>
-        <!-- Place this tag where you want the button to render. -->
-        <a class="github-button" href="https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10" data-icon="octicon-star" data-size="large" aria-label="Star rickstaa/Todoist_Global_Shortcuts_WIN10 on GitHub">Star</a>
-        <!-- Place this tag where you want the button to render. -->
-        <a class="github-button" href="https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues" data-icon="octicon-issue-opened" data-size="large" aria-label="Issue rickstaa/Todoist_Global_Shortcuts_WIN10 on GitHub">Issue</a>
-        <!-- Place this tag where you want the button to render. -->
-        <a class="github-button" href="https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/subscription" data-icon="octicon-eye" data-size="large" aria-label="Watch rickstaa/Todoist_Global_Shortcuts_WIN10 on GitHub">Watch</a>
-        <!-- Place this tag where you want the button to render. -->
-        <a class="github-button" href="https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/fork" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork rickstaa/Todoist_Global_Shortcuts_WIN10 on GitHub">Fork</a>
-        <a href='https://ko-fi.com/A5841X35' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>      </section>
-<!-- Github buttons -->
-        {{ content }}
-</div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+      <!-- Github buttons -->
+      {{ content }}
+      <a href='https://ko-fi.com/A5841X35' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> </section>
+  </div>
 
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
-  </body>
+  <!-- FOOTER  -->
+  <div id="footer_wrap" class="outer">
+    <footer class="inner">
+      {% if site.github.is_project_page %}
+      <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+      {% endif %}
+      <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+    </footer>
+  </div>
+
+  {% if site.google_analytics %}
+  <script type="text/javascript">
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+</body>
+
 </html>
