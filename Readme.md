@@ -14,8 +14,9 @@ There might be other folders but those are the onces I tested.
 ### Preperation
 1. Click the download link above.
 2. Unzip the file.
-3. Name the extracted folder anything you want.
-4. Place the folder in any of the above specified folders.
+3. Go to the *TODOIST_WA* folder.
+5. Name the folder anything you want.
+4. Place the *TODOIST_WA* folder in any of the above specified folders.
 
 ### Add global shortcut to open todoist
 1. Inside the folder you just moved Left click on the *Open Todoist Shortcut*
