@@ -3,6 +3,7 @@ Created by: Solomous
 
 Created on: 05/07/2017
 
+
 This script adds global shortcuts to TODOIST ON WINDOWS 10. Due to some security rescrictions in windows 10 
 I couldn't run the actual excutable. So this was the only way I could achive it. For bugs questions or surgestions 
 go to:
