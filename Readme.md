@@ -22,17 +22,13 @@ There might be other folders but those are the onces I tested.
 ### Add a global shortcut to open todoist and add task -
 1. Inside the folder you just moved Left click on the "_script.vbs" file.
 2. Click create shortcut.
-2. Call the new shortcut anything you like
-  * If you placed the folder in the Start Menu or Programs folder you will get an error.
-  * Click yes
-  * The shortcut will now be created on the desktop
-  * Drag the shortcut to the folder you placed in the "Start Menu" or "Programs" folder.
+2. Call the new shortcut anything you like.
+ * If you placed the folder in the Start Menu or Programs folder you will get an error.
+ * Click yes
+ * The shortcut will now be created on the desktop
+ * Drag the shortcut to the folder you placed in the "Start Menu" or "Programs" folder.
 4. Left click on the Shortcut.
 5. Set a keyboard shortcut in the "Keyboard Shortcut" field.
 
-### WARNING
+### NOTE:
 Don't change the name of the Open Todoist Shortcut or the script will not work.
-
-Enjoy, 
-
-Solomons, 
