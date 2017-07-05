@@ -18,3 +18,5 @@ There might be other folders but those are the onces I tested.
 1. Place the folder anywhere you like.
 2. Left click on the "Add Task Shortcut"
 3. Set a keyboard shortcut in the "Keyboard Shortcut" field.
+
+Ejoy,
