@@ -20,3 +20,5 @@ There might be other folders but those are the onces I tested.
 3. Set a keyboard shortcut in the "Keyboard Shortcut" field.
 
 Ejoy,
+
+If you like my workaround you can,
