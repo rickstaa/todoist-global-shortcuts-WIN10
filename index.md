@@ -1,6 +1,8 @@
 # This is a workaround to use global shortcuts for TODOIST on WINDOWS 10
 *Created on: 05/07/2017 - Version 1.0*
 
+*!UPDATE: The workaround seems to work fine when placed on the desktop but slow in the startup folder. I Will do some tests tomorrow.*
+
 ## Instructions
 
 Place the folder in one of the following folders that are scanned by windows
