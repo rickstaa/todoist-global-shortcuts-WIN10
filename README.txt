@@ -6,8 +6,7 @@ This script adds global shortcuts to TODOIST ON WINDOWS 10. Due to some security
 I couldn't run the actual excutable. So this was the only way I could achive it. For bugs questions or surgestions 
 go to:
 
-https://www.reddit.com/r/todoist/comments/6l6ooc/how_to_set_a_global_todoist_shortcut_in_windows/
-
+https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10
 
 == Instructions ==
 
