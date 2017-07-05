@@ -1,4 +1,5 @@
 # This is a workaround to use global shortcuts for TODOIST on WINDOWS 10
+
 Created by: Solomous
 Created on: 05/07/2017
 
