@@ -1,12 +1,6 @@
 # This is a workaround to use global shortcuts for TODOIST on WINDOWS 10
 *Created on: 05/07/2017 - Version 1.0*
 
-This script adds global shortcuts to TODOIST ON WINDOWS 10. Due to some security rescrictions in windows 10 
-I couldn't run the actual excutable. So this was the only way I could achive it. For bugs questions or surgestions 
-go to:
-
-https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10
-
 ## Instructions
 
 Place the folder in one of the following folders that are scanned by windows
@@ -24,10 +18,3 @@ There might be other folders but those are the onces I tested.
 1. Place the folder anywhere you like.
 2. Left click on the "Add Task Shortcut"
 3. Set a keyboard shortcut in the "Keyboard Shortcut" field.
-
-
-Enjoy,
-
-Greetings,
-
-Solomous,
