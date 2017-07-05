@@ -1,8 +1,5 @@
 # This is a workaround to use global shortcuts for TODOIST on WINDOWS 10
-Created by: Solomous
-
-Created on: 05/07/2017
-
+Created on: 05/07/2017 - Version 1.0
 
 This script adds global shortcuts to TODOIST ON WINDOWS 10. Due to some security rescrictions in windows 10 
 I couldn't run the actual excutable. So this was the only way I could achive it. For bugs questions or surgestions 
@@ -33,3 +30,4 @@ Enjoy,
 Greetings,
 
 Solomous,
+:simple_smile:
