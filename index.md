@@ -21,4 +21,4 @@ There might be other folders but those are the onces I tested.
 
 Ejoy,
 
-If you like my workaround you can,
+Did you find this workaround usefull?
