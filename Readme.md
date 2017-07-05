@@ -23,10 +23,10 @@ There might be other folders but those are the onces I tested.
 1. Inside the folder you just moved Left click on the "_script.vbs" file.
 2. Click create shortcut.
 2. Call the new shortcut anything you like.
- * If you placed the folder in the Start Menu or Programs folder you will get an error.
- * Click yes
- * The shortcut will now be created on the desktop
- * Drag the shortcut to the folder you placed in the "Start Menu" or "Programs" folder.
+ 1. If you placed the folder in the Start Menu or Programs folder you will get an error.
+ 2. Click yes
+ 3. The shortcut will now be created on the desktop
+ 4. Drag the shortcut to the folder you placed in the "Start Menu" or "Programs" folder.
 4. Left click on the Shortcut.
 5. Set a keyboard shortcut in the "Keyboard Shortcut" field.
 
