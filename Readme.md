@@ -27,6 +27,7 @@ There might be other folders but those are the onces I tested.
  2. Click yes
  3. The shortcut will now be created on the desktop
  4. Drag the shortcut to the folder you placed in the "Start Menu" or "Programs" folder.
+
 4. Left click on the Shortcut.
 5. Set a keyboard shortcut in the "Keyboard Shortcut" field.
 
