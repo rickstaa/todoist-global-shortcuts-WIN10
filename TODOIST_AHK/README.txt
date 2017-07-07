@@ -3,7 +3,6 @@
 
 Since TODOIST its Windows 10 app doesn’t support global shortcuts at the moment. I made a 2 little workarounds for the "open TODOIST" global shortcut. 
     1. AutoHotkey workaround (Easy to set up, fast and Reliable)
-
     2. VBS Workaround (Hard to setup, can be slow)
 
 These workaround add the following global TODOIST shortcuts to WIN 10:
