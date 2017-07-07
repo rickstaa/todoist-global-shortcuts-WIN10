@@ -26,3 +26,6 @@ Make sure autohotkey is running on startup
 
 ### Instructions VBS workaround
 For the vbs workaround instructions see the README.txt in the TODOIST_VBS folder.
+
+### Support
+Did you find my workaround useful and you want to support future projects like this? 
