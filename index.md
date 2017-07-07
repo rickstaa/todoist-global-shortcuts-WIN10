@@ -12,7 +12,7 @@ These workaround add the following global TODOIST shortcuts to WIN 10:
     - alt+ctrl+s (open todoist)
 
 
-### INSTRUCTIONS AutoHotKey workaround
+### Instructions AutoHotKey workaround
 1. Download AutoHotKey from https://autohotkey.com/
 2. Install AutoHotKey from https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/archive/master.zip
 3. Download the Workaround.
@@ -21,8 +21,8 @@ These workaround add the following global TODOIST shortcuts to WIN 10:
 6. Drag the "WinStoreAppLinks" folder into the "Program Files Shortcut"
 7. Drag the "Todoist_global_Shortcuts.ahk" file into the "Startup Folder Shortcut
 
-#### NOTES
+#### Note
 Make sure autohotkey is running on startup 
 
-### INSTRUCTIONS VBS workaround
+### Instructions VBS workaround
 For the vbs workaround instructions see the README.txt in the TODOIST_VBS folder.
