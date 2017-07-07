@@ -7,6 +7,7 @@ Since TODOIST its Windows 10 app doesn’t support global shortcuts at the momen
 	2. Vbs Workaround (Hard to setup, can be slow)
 	
 These workaround add the following global TODOIST shortcuts to WIN 10:
+
     - alt+ctrl+a (Add new task)
     - alt+ctrl+s (open todoist)
 
