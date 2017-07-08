@@ -28,7 +28,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;--SCRIPT SETTINGS-- 
 SetTitleMatchMode, 2 ; IfWinExist settings
 DetectHiddenWindows, On
-WaitTime := 1000 ; Adjust this time if the script is not working on program startup
+WaitTime := 1100 ; Adjust this time if the script is not working on program startup
 LoadStr := "C:\Program Files\WinStoreAppLinks\Todoist To-Do List and Task Manager" ; Path to where you installed the todoist shortcut
 
 ;--Shortkey code--
@@ -59,7 +59,7 @@ Process, Exist, Todoist.Universal.exe
 IfWinNotExist, ahk_exe Todoist.Universal.exe
 {
         RunWait, %LoadStr%
-		sleep, 1000 ; Waits for Todoist to load
+		sleep, WaitTime ; Waits for Todoist to load
 	    WinActivate, %Title% 
 		WinWaitActive, %Title% 
 		{ 
