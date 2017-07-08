@@ -15,9 +15,6 @@ These workarounds add the following global TODOIST shortcuts to WIN 10:
 3. Download the Workaround.
 4. Unzip the Workaround file
 5. Go to Todoist_Global_Shortcuts_WIN10\TODOIST_AHK
-6. Press the WINDOWS key.
-7. Look for the "Todoist" program inside the all programs list.
-8. Drag the Todoist program inside the "WinStoreAppLinks" folder.
 6. Click on the "installer.vbs" file to install the workaround.
 
 NOTES:
