@@ -15,7 +15,6 @@ Set appsFolder = oShell.NameSpace("shell:AppsFolder")
 
 scriptdir = CreateObject("Scripting.FileSystemObject").GetParentFolderName(WScript.ScriptFullName)
 
-
 'Move AHK script to startup folder
 dim filesys
 set filesys=CreateObject("Scripting.FileSystemObject")
