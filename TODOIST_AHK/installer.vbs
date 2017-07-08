@@ -20,7 +20,7 @@ Set startupFolder = oShell.NameSpace(ssfSTARTUP)
 Set programFolder = oShell.NameSpace(ssfPROGRAM)
 Set appsFolder = oShell.NameSpace("shell:AppsFolder")
  
-WScript.Echo appsFolder.Self.Path
+
 
 scriptdir = CreateObject("Scripting.FileSystemObject").GetParentFolderName(WScript.ScriptFullName)
 
@@ -35,3 +35,6 @@ filesys.CopyFile ahPath, ahMovePath
 
 'Move WinStoreAppLinks folder
 filesys.CopyFolder fPath, fMovePath
+
+'Message
+WScript.Echo "Workaround installation complete."
