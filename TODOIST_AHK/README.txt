@@ -17,7 +17,7 @@ For questions, issues and suggestions go to: https://rickstaa.github.io/Todoist_
 	3. [Download the Workaround.](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/archive/master.zip)
 	4. Unzip the Workaround file.
 	5. Go to Todoist_Global_Shortcuts_WIN10\TODOIST_AHK.
-	6. Press WINDOWS key.
+	6. Press the WINDOWS key.
 	7. Look for the "Todoist" program in the start menu.
 	8. Drag the "Todoist" program inside the WinStoreAppLinks folder.
 	7. Click on the "installer.vbs" file to install the workaround.
