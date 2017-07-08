@@ -1,5 +1,5 @@
 ## This is a workaround to use global shortcuts for TODOIST on WINDOWS 10
-*Created on 05/07/2017 - Version 1.0*
+*Created on 05/07/2017 - Version 1.2*
 
 Since TODOIST its Windows 10 app doesn’t support global shortcuts at the moment. I made a 2 little workarounds for the "open TODOIST" global shortcut.
 
