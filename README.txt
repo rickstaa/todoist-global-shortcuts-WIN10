@@ -1,4 +1,4 @@
-# This is a workaround to use global shortcuts for TODOIST on WINDOWS 10
+﻿# This is a workaround to use global shortcuts for TODOIST on WINDOWS 10
 *Created on 05/07/2017 - Version 1.0*
 
 Since TODOIST its Windows 10 app doesn’t support global shortcuts at the moment. I made a 2 little workarounds for the "open TODOIST" global shortcut.
@@ -15,8 +15,8 @@ These workarounds add the following global TODOIST shortcuts to WIN 10:
 3. Download the Workaround.
 4. Unzip the Workaround file
 5. Go to Todoist_Global_Shortcuts_WIN10\TODOIST_AHK
-6. Drag the "WinStoreAppLinks" folder into the "Program Files Shortcut"
-7. Drag the "Todoist_global_Shortcuts.ahk" file into the "Startup Folder Shortcut
+6. Click on the "installer.vbs" file to install the workaround.
+
 
 NOTES:
 Make sure autohotkey is running on startup 

@@ -11,16 +11,25 @@ These workarounds add the following global TODOIST shortcuts to WIN 10:
 
 For questions, issues and suggestions go to: https://rickstaa.github.io/Todoist_Global_Shortcuts_WIN10/
 
---INSTRUCTIONS AutoHotkey workaround--
+## Automatic installation
 	1. Download AutoHotkey from https://autohotkey.com/.
 	2. Install AutoHotkey.
 	3. Download the Workaround.
 	4. Unzip the Workaround file.
 	5. Go to Todoist_Global_Shortcuts_WIN10\TODOIST_AHK.
-	6. Run the installer.vbs
+	6. Click on the "installer.vbs" file to install the workaround.
 
---NOTES--
+### Mannual installation
+	1. Download AutoHotkey from https://autohotkey.com/.
+	2. Install AutoHotkey.
+	3. Download the Workaround.
+	4. Unzip the Workaround file.
+	5. Go to Todoist_Global_Shortcuts_WIN10\TODOIST_AHK.
+	6. Press the WINDOWS key.
+        7. Look for the "Todoist application" into the all programs section.
+        8. Drag the "Todoist program" inside the "WinStoreAppLinks" folder.
+	6. Drag the "WinStoreAppLinks" folder into the "Program Files Shortcut" folder
+	7. Drag the "Todoist_global_shortcuts.ahk" file into the "Startup Folder Shortcut" folder.
+
+## NOTES
 Make sure AutoHotkey is running on startup 
-
---INSTRUCTIONS VBS workaround--
-For the VBS workaround instructions see the README.txt in the TODOIST_VBS folder.
