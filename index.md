@@ -1,8 +1,6 @@
 ## This is a workaround to use global shortcuts for TODOIST on WINDOWS 10
 _Created on 05/07/2017 - Version 2.0_
 
-<br>
-
 Since TODOIST its Windows 10 app doesn’t support global shortcuts at the moment. I made a  little workarounds for the "open TODOIST" global shortcut.
 
     - alt+ctrl+a (Add new task)
