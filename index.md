@@ -21,7 +21,6 @@ Since TODOIST its Windows 10 app doesn’t support global shortcuts at the momen
 
 #### VBS workaround
 If you don't like using AutoHotKey there is a VBS workaround in the TODOIST_VBS folder. See the README.txt for instructions 
-<br>
 
 ### Support me
 Did you find my workaround useful and you want to support future projects like this? 
