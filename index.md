@@ -1,5 +1,5 @@
 ## This is a workaround to use global shortcuts for TODOIST on WINDOWS 10
-* Created on 05/07/2017 - Version 2.0
+_Created on 05/07/2017 - Version 2.0_
 
 <br>
 
