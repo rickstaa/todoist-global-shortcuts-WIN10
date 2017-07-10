@@ -6,7 +6,6 @@ Since TODOIST its Windows 10 app doesn’t support global shortcuts at the momen
     - alt+ctrl+a (Add new task)
     - alt+ctrl+s (open todoist)
 <br>
-
 ### Instructions AutoHotKey workaround#
 1. [Download AutoHotKey.](https://autohotkey.com/)
 2. Install AutoHotKey.
@@ -24,6 +23,5 @@ Since TODOIST its Windows 10 app doesn’t support global shortcuts at the momen
 If you don't like using AutoHotKey there is a VBS workaround in the TODOIST_VBS folder. See the README.txt for instructions 
 
 <br>
-
 ### Support me
 Did you find my workaround useful and you want to support future projects like this? 
