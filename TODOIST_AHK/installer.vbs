@@ -67,14 +67,5 @@ If filesys.FileExists(strFile) Then
    filesys.MoveFile strFile, strRename
 End If
 
-'Create shortcut
-With CreateObject("WScript.Shell")
-    With .CreateShortcut(.SpecialFolders("Desktop") & "\Todoist To-Do List and Task Manager.lnk")
-         .TargetPath = "shell:AppsFolder\" & pathStr
-         .Description = "Todoist To-Do List and Task Manager"
-         .Save
-    End  With
-End  With
-
 '- Print message
 WScript.Echo "Workaround successfully installed"
