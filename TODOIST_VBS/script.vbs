@@ -5,20 +5,20 @@
 '---------------SCRIPT---------------'
 '--Declare--'
 Dim Shell, WMI, pid, objFSO, CurrentDirectory, strFileName
-Set Shell = WScript.CreateObject("WScript.Shell") 
+Set Shell = WScript.CreateObject("WScript.Shell")
 Set WMI = GetObject("winmgmts:!\\.\root\cimv2")
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 
 CurrentDirectory = objFSO.GetAbsolutePathName(".") 			'--Get path--'
-strFileName = (CurrentDirectory & "\Open Todoist Shortcut")		'--Create load str--'
+strFileName = (CurrentDirectory & "\Todoist To-Do List and Task Manager")		'--Create load str--'
 
 Shell.Run Chr(34) & strFileName & Chr(34)
 
-pid = WaitForProcess("Todoist.Universal.exe", 5) '--Check if program was run--' 
+pid = WaitForProcess("Todoist.Universal.exe", 5) '--Check if program was run--'
 
 If pid > 0 Then
     Shell.AppActivate pid '--Make sure the program is open before keystroke--'
-    Shell.SendKeys "q" '--Keystroke--' 
+    Shell.SendKeys "q" '--Keystroke--'
 Else
 End If
 
@@ -39,5 +39,5 @@ Function WaitForProcess(imageName, tries)
             WScript.Sleep 1000
             tries = tries - 1
         End If
-    Wend    
+    Wend
 End Function

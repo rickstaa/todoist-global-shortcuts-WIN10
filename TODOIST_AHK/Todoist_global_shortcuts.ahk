@@ -1,10 +1,12 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+id := "88449BC3.TodoistTo-DoListTaskManager_71ef4824z52ta!App" ; AppUserModelid
+
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ;----------TODOIST global shortcuts WIN10 workaround----------
-; *Created on 05/07/2017 - Version 1.0*
+; *Created on 05/07/2017 by Rick Staa - Version 1.0*
 ;
 ; This AutoHotkey script adds global TODOIST shortcuts to WIN 10
 ;     - alt+ctrl+a (Add new task)
@@ -24,21 +26,35 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;--NOTES--
 ; Make sure AutoHotkey is running on startup 
 
-;!DO NOT CHANGE THE CODE AND SETTINGS BELOW UNLESS YOU KNOW WHAT YOU ARE DOING!
 ;--SCRIPT SETTINGS-- 
+WaitTime := 1100 ; Adjust this time if the script is not working on program startup
+
+;!DO NOT CHANGE THE CODE AND SETTINGS BELOW UNLESS YOU KNOW WHAT YOU ARE DOING!
 SetTitleMatchMode, 2 ; IfWinExist settings
 DetectHiddenWindows, On
-WaitTime := 1100 ; Adjust this time if the script is not working on program startup
-LoadStr := "C:\Program Files\WinStoreAppLinks\Todoist To-Do List and Task Manager" ; Path to where you installed the todoist shortcut
+Title := "Todoist: To-Do List and Task Manager" ; Todoist window title
 
 ;--Shortkey code--
-; Open todoist with alt+ctrl+t shortcut
 
+; Open todoist with alt+ctrl+t shortcu
 !^t::
-Process, Exist, Todoist.Universal.exeqqqq
+
+; Since Windows apps are hard to run the install.vbs script first need to find your unique UserAppModelid
+if (id = ""){
+	MsgBox, 4,, For the shortcuts to work you need to run the installer.vbs. Do you want to run it now?
+	IfMsgBox, Yes
+		try{ 
+			Run, installer.vbs
+		} catch{
+			MsgBox, Hey there! I look like you moved the AutoHotKeyScript file. I suggest downloading the workaround again and running the installer. This is needed since Windows Store Apps are hard to run due to the current Windows 10 Store Apps installation protocol. 
+		} 
+	Exit
+} 
+
+Process, Exist, Todoist.Universal.exe
 IfWinNotExist, ahk_exe Todoist.Universal.exe
 {
-    Run, %LoadStr%
+    Run, shell:AppsFolder\%id%
     return
 }
 else
@@ -47,18 +63,29 @@ else
     IfWinActive, %Title%
         WinMinimize, %Title%
     else
-        Run, C:\Program Files\WinStoreAppLinks\Todoist To-Do List and Task Manager
+        Run, shell:AppsFolder\%id%
 }
 return
 
-!^a::
-Title := "Todoist: To-Do List and Task Manager" ;Todoist window title
+; Open todoist and add task shortcut
+!^a:: 
 
+; Since Windows apps are hard to run the install.vbs script first need to find your unique UserAppModelid
+if (id = ""){
+	MsgBox, 4,, For the shortcuts to work you need to run the installer.vbs. Do you want to run it now?
+	IfMsgBox, Yes
+		try{ 
+			Run, installer.vbs
+		} catch{
+			MsgBox, Hey there! I look like you moved the AutoHotKeyScript file. I suggest downloading the workaround again and running the installer. This is needed since Windows Store Apps are hard to run due to the current Windows 10 Store Apps installation protocol.
+		} 
+	Exit
+} 
 
 Process, Exist, Todoist.Universal.exe
 IfWinNotExist, ahk_exe Todoist.Universal.exe
 {
-        RunWait, %LoadStr%
+        RunWait, shell:AppsFolder\%id%
 		sleep, WaitTime ; Waits for Todoist to load
 	    WinActivate, %Title% 
 		WinWaitActive, %Title% 
@@ -72,7 +99,7 @@ else
     IfWinActive, %Title%
         WinMinimize, %Title%
     else
-        Run, %LoadStr%
+        Run, shell:AppsFolder\%id%
 	    WinActivate, %Title% 
 		WinWaitActive, %Title% 
 		{ 
@@ -81,3 +108,8 @@ else
 		} 
 }
 return
+
+
+
+
+

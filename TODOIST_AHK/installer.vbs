@@ -3,16 +3,9 @@
 'https://www.reddit.com/r/todoist/comments/6l6ooc/how_to_set_a_global_todoist_shortcut_in_windows/'
 
 '---------------SCRIPT---------------'
-Set WshShell = WScript.CreateObject("WScript.Shell")
-If WScript.Arguments.Length = 0 Then
-  Set ObjShell = CreateObject("Shell.Application")
-  ObjShell.ShellExecute "wscript.exe" _
-    , """" & WScript.ScriptFullName & """ RunAsAdministrator", , "runas", 1
-  WScript.Quit
-End if
 
-'Get folder paths
-Const ssfSTARTUP = &H18&
+'- Get folder paths
+Const ssfSTARTUP = &H7
 Const ssfPROGRAM = &H26&
 
 Set oShell = CreateObject("Shell.Application")
@@ -22,16 +15,66 @@ Set appsFolder = oShell.NameSpace("shell:AppsFolder")
 
 scriptdir = CreateObject("Scripting.FileSystemObject").GetParentFolderName(WScript.ScriptFullName)
 
-'Move AHK script to startup folder
+'- Move AHK script to startup folder
 dim filesys
-set filesys=CreateObject("Scripting.FileSystemObject")
+set filesys = CreateObject("Scripting.FileSystemObject")
 ahPath = scriptdir & "\Todoist_global_shortcuts.ahk"
-fPath  = scriptdir & "\WinStoreAppLinks"
 ahMovePath = startupFolder.Self.Path & "\Todoist_global_shortcuts.ahk"
-fMovePath  = programFolder.Self.Path & "\WinStoreAppLinks"
 filesys.CopyFile ahPath, ahMovePath
 
-'Move WinStoreAppLinks folder
-filesys.CopyFolder fPath, fMovePath
+'- Create Launcher
 
+'Find AppUserModelid
+Dim itm
+With CreateObject("Shell.Application").Namespace("shell:AppsFolder")
+  For Each itm In .Items
+    If Instr(itm.Name, "Todoist") Then
+            pathStr = itm.Path
+		end If
+  Next
+End With
+
+'Add AppUserModelid to AutoHotKey filesys
+'Change file extension
+strFile = scriptdir & "\Todoist_global_shortcuts.ahk"
+strRename = scriptdir & "\Todoist_global_shortcuts.txt"
+
+If filesys.FileExists(strFile) Then
+   filesys.MoveFile strFile, strRename
+End If
+
+'Open file and add text at top
+Const ForReading = 1
+Const ForWriting = 2
+Set objFile = filesys.OpenTextFile(strRename, ForReading)
+objFile.SkipLine
+objFile.SkipLine
+strContents = objFile.ReadAll
+objFile.Close
+strFirstLine = "id := """ & pathStr & """ ; AppUserModelid"
+strNewContents = strFirstLine & vbCrLf & vbCrLf & strContents
+
+Set objFile = filesys.OpenTextFile(strRename, ForWriting)
+objFile.WriteLine strNewContents
+
+objFile.Close
+
+'Change file extension
+strFile = scriptdir & "\Todoist_global_shortcuts.txt"
+strRename = scriptdir & "\Todoist_global_shortcuts.ahk"
+
+If filesys.FileExists(strFile) Then
+   filesys.MoveFile strFile, strRename
+End If
+
+'Create shortcut
+With CreateObject("WScript.Shell")
+    With .CreateShortcut(.SpecialFolders("Desktop") & "\Todoist To-Do List and Task Manager.lnk")
+         .TargetPath = "shell:AppsFolder\" & pathStr
+         .Description = "Todoist To-Do List and Task Manager"
+         .Save
+    End  With
+End  With
+
+'- Print message
 WScript.Echo "Workaround successfully installed"
