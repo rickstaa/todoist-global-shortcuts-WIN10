@@ -15,9 +15,10 @@ Since TODOIST its Windows 10 app doesn’t support global shortcuts at the momen
 6. Click on the "installer.vbs" file to install the workaround.
 
 #### The workaround is not working what now?
-	- Make sure AutoHotkey is running on startup.
-	- Ensure that you have the right user privileges to add files to your user startup folder.
-	- Still not working go to https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues
+
+- Make sure AutoHotkey is running on startup.
+- Ensure that you have the right user privileges to add files to your user startup folder.
+- Still not working go to https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues
 
 #### VBS workaround
 If you don't like using AutoHotKey there is a VBS workaround in the TODOIST_VBS folder. See the README.txt for instructions 
