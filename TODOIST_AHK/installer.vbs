@@ -15,12 +15,11 @@ Set appsFolder = oShell.NameSpace("shell:AppsFolder")
 
 scriptdir = CreateObject("Scripting.FileSystemObject").GetParentFolderName(WScript.ScriptFullName)
 
-'- Move AHK script to startup folder
+'- Create AHK move paths
 dim filesys
 set filesys = CreateObject("Scripting.FileSystemObject")
 ahPath = scriptdir & "\Todoist_global_shortcuts.ahk"
 ahMovePath = startupFolder.Self.Path & "\Todoist_global_shortcuts.ahk"
-filesys.CopyFile ahPath, ahMovePath
 
 '- Create Launcher
 
@@ -66,6 +65,9 @@ strRename = scriptdir & "\Todoist_global_shortcuts.ahk"
 If filesys.FileExists(strFile) Then
    filesys.MoveFile strFile, strRename
 End If
+
+'Move file to startupFolder
+filesys.CopyFile ahPath, ahMovePath
 
 '- Print message
 WScript.Echo "Workaround successfully installed"
