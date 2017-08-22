@@ -88,7 +88,6 @@ IfWinNotExist, ahk_exe Todoist.Universal.exe
         RunWait, shell:AppsFolder\%id%
 		sleep, WaitTime ; Waits for Todoist to load
 	    WinActivate, %Title% 
-		WinWaitActive, %Title% 
 		{ 
 			send, {q}
 			return
@@ -100,14 +99,23 @@ else
         WinMinimize, %Title%
     else
         Run, shell:AppsFolder\%id%
+		sleep, WaitTime ; Waits for Todoist to load
 	    WinActivate, %Title% 
-		WinWaitActive, %Title% 
 		{ 
 			send, {q}
 			return
 		} 
 }
 return
+
+
+
+
+
+
+
+
+
 
 
 

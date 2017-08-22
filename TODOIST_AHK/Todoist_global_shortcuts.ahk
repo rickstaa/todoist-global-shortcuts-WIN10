@@ -1,4 +1,4 @@
-id := "88449BC3.TodoistTo-DoListTaskManager_71ef4824z52ta!App" ; AppUserModelid
+id := "" ; AppUserModelid
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
@@ -88,7 +88,6 @@ IfWinNotExist, ahk_exe Todoist.Universal.exe
         RunWait, shell:AppsFolder\%id%
 		sleep, WaitTime ; Waits for Todoist to load
 	    WinActivate, %Title% 
-		WinWaitActive, %Title% 
 		{ 
 			send, {q}
 			return
@@ -100,8 +99,8 @@ else
         WinMinimize, %Title%
     else
         Run, shell:AppsFolder\%id%
+		sleep, WaitTime ; Waits for Todoist to load
 	    WinActivate, %Title% 
-		WinWaitActive, %Title% 
 		{ 
 			send, {q}
 			return
