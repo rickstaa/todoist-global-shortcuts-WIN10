@@ -23,7 +23,7 @@ These workarounds add the following global TODOIST shortcuts to WIN 10:
 5. Go to the "Todoist_Global_Shortcuts_WIN10\TODOIST_AHK" folder.
 6. Click on the "installer.vbs" file to install the workaround.
 
-#### FAQ 
+## FAQ 
 
 ### The workaround is not working what now?
 - Make sure AutoHotkey is running on startup.
