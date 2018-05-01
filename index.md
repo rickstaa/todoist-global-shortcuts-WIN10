@@ -14,14 +14,23 @@ Since TODOIST its Windows 10 app doesn’t support global shortcuts at the momen
 5. Go to the "Todoist_Global_Shortcuts_WIN10\TODOIST_AHK" folder.
 6. Click on the "installer.vbs" file to install the workaround.
 
-#### The workaround is not working what now?
+## FAQ
 
+### The workaround is not working what now?
 - Make sure AutoHotkey is running on startup.
 - Ensure that you have the right user privileges to add files to your user startup folder.
 - Still not working go to https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues
 
-### VBS workaround
-If you don't like using AutoHotKey there is a VBS workaround in the TODOIST_VBS folder. See the README.txt for instructions 
+### How does this workaround work?
+A windows 10 universal app can be loaded by using its AppUserModelIDs. This is done by running the following command:
 
-### Support me
-Did you find my workaround useful and you want to support future projects like this? 
+	explorer shell:AppsFolder/AppUserModelID
+
+In this command the "AppUserModelID" refers to the AppUserModelID of the app you want to load. An excellent guide on how to find the AppUserModelID is located on:
+
+- https://jcutrer.com/howto/windows/find-aumid
+
+When the AppUserModelID is found, it can be used in to create an "AutoHotKey" file. This workaround just automates this process.
+
+### What is the VBS workaround?
+This workaround is the first workaround I created it can be used by people that don't like using AutoHotKey. See the README.txt in the TODOIST_VBS folder for instructions.
