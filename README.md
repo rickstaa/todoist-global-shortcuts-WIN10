@@ -3,9 +3,9 @@ _Created by Rick Staa on 10/07/2017 - Version 2.0_
 
 <br>
 
-Since TODOIST its Windows 10 app doesn’t support global shortcuts at the moment. I made a 2 little workarounds for the "open TODOIST" global shortcut.
+Since TODOIST its Windows 10 app doesn’t support global shortcuts at the moment. I made 2 little workarounds for the "open TODOIST" global shortcut.
 
-    1. AutoHotKey workaround (Easy to set up, fast and Relibably)
+    1. AutoHotKey workaround (Easy to set up, fast and Reliable)
     2. Vbs Workaround (Hard to setup, can be slow)
 	
 These workarounds add the following global TODOIST shortcuts to WIN 10:
@@ -36,7 +36,7 @@ A windows 10 universal app can be loaded by using its AppUserModelIDs.
 This is done by running the following command:
 explorer shell:AppsFolder/AppUserModelID
 
-In this "AppUserModelID" refers to the AppUserModelID of the app you want to load. An excellent guide on how to find the AppUserModelID can be found on:
+In this "AppUserModelID" refers to the AppUserModelID of the app you want to load. An excellent guide on how to find the AppUserModelID is located on:
 https://jcutrer.com/howto/windows/find-aumid
 
 When the AppUserModelID is found it can be used in to create an "AutoHotKey" file. This workaround just automates this process.
