@@ -1,6 +1,7 @@
-# This is a workaround to add global Todoist shortcuts to WINDOWS 10 ##
+﻿#### This is a workaround to add global Todoist shortcuts to WINDOWS 10 ####
 * Created by Rick Staa on 5/07/2017 - Version 1.0
 
+## -- Manual --
 Since TODOIST its Windows 10 app doesn’t support global shortcuts at the moment. I made a little workaround for the "open TODOIST" global shortcut.
 This workaround works without "Autohotkey". But it is harder to install and can be slower than the AutoHotKey workaround.
 

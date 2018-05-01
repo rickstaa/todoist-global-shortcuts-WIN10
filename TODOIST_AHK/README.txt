@@ -1,6 +1,7 @@
-﻿﻿# This is a workaround to add global Todoist shortcuts to WINDOWS 10 ##
+﻿﻿##### This is a workaround to add global Todoist shortcuts to WINDOWS 10 #####
 * Created by Rick Staa on 10/07/2017 - Version 2.0
 
+## -- Manual --
 This workaround add the following global TODOIST shortcuts to WIN 10:
     - alt+ctrl+a (Add new task)
     - alt+ctrl+s (open todoist)
@@ -22,3 +23,16 @@ For questions, issues and suggestions go to: https://github.com/rickstaa/Todoist
 
 ## INSTRUCTIONS VBS workaround
 For the vbs workaround instructions see the README.txt in the TODOIST_VBS folder.
+
+## -- FAQ --
+## How does this workaround work?
+A windows 10 universal app can be loaded by using its AppUserModelIDs.
+
+To find the AppUserModelID, you are referred to:
+https://jcutrer.com/howto/windows/find-aumid
+
+The found AppUserID can be used in to create an "AutoHotKey" file. The workaround automates this process.
+
+## How do I ask questions, report bugs or contribute to the project
+This can be done by going to:
+https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10
