@@ -19,7 +19,7 @@ Since TODOIST its Windows 10 app doesn’t support global shortcuts at the momen
 ### The workaround is not working what now?
 - Make sure AutoHotkey is running on startup.
 - Ensure that you have the right user privileges to add files to your user startup folder.
-- Still not working go to https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues
+- Still not working go to [https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues)
 
 ### How does this workaround work?
 A windows 10 universal app can be loaded by using its AppUserModelIDs. This is done by running the following command:
@@ -28,7 +28,7 @@ A windows 10 universal app can be loaded by using its AppUserModelIDs. This is d
 
 In this command the "AppUserModelID" refers to the AppUserModelID of the app you want to load. An excellent guide on how to find the AppUserModelID is located on:
 
-- https://jcutrer.com/howto/windows/find-aumid
+- [https://jcutrer.com/howto/windows/find-aumid](https://jcutrer.com/howto/windows/find-aumid)
 
 When the AppUserModelID is found, it can be used in to create an "AutoHotKey" file. This workaround just automates this process.
 
