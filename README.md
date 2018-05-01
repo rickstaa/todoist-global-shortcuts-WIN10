@@ -31,13 +31,13 @@ These workarounds add the following global TODOIST shortcuts to WIN 10:
 - Still not working go to https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues
 
 ### How does this workaround work?
-A windows 10 universal app can be loaded by using its AppUserModelIDs.
+A windows 10 universal app can be loaded by using its AppUserModelIDs. This is done by running the following command:
 
-This is done by running the following command:
-explorer shell:AppsFolder/AppUserModelID
+	explorer shell:AppsFolder/AppUserModelID
 
-In this "AppUserModelID" refers to the AppUserModelID of the app you want to load. An excellent guide on how to find the AppUserModelID is located on:
-https://jcutrer.com/howto/windows/find-aumid
+In this command the "AppUserModelID" refers to the AppUserModelID of the app you want to load. An excellent guide on how to find the AppUserModelID is located on:
+
+- https://jcutrer.com/howto/windows/find-aumid
 
 When the AppUserModelID is found it can be used in to create an "AutoHotKey" file. This workaround just automates this process.
 
