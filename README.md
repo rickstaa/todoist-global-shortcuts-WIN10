@@ -39,7 +39,7 @@ In this command the "AppUserModelID" refers to the AppUserModelID of the app you
 
 - https://jcutrer.com/howto/windows/find-aumid
 
-When the AppUserModelID is found it can be used in to create an "AutoHotKey" file. This workaround just automates this process.
+When the AppUserModelID is found, it can be used in to create an "AutoHotKey" file. This workaround just automates this process.
 
 ### What is the VBS workaround?
 This workaround is the first workaround I created it can be used by people that don't like using AutoHotKey. See the README.txt in the TODOIST_VBS folder for instructions.
