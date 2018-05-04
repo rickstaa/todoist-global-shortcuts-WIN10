@@ -1,7 +1,7 @@
-﻿﻿##### This is a workaround to add global Todoist shortcuts to WINDOWS 10 #####
-* Created by Rick Staa on 10/07/2017 - Version 2.0
+# This is a workaround to add global Todoist shortcuts to WINDOWS 10
+_Created by Rick Staa on 10/07/2017 - Version 2.0_
 
-## -- Manual --
+## Manual
 This workaround add the following global TODOIST shortcuts to WIN 10:
     - alt+ctrl+a (Add new task)
     - alt+ctrl+s (open todoist)
@@ -19,7 +19,7 @@ For questions, issues and suggestions go to: https://github.com/rickstaa/Todoist
 # INSTRUCTIONS VBS workaround
 For the VBS workaround instructions see the README.txt in the TODOIST_VBS folder.
 
-## -- FAQ -- 
+## FAQ 
  
 The workaround is not working what now?
 
