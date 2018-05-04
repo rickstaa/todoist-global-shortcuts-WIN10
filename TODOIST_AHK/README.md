@@ -1,4 +1,4 @@
-﻿﻿# This is a workaround to add global Todoist shortcuts to WINDOWS 10
+# This is a workaround to add global Todoist shortcuts to WINDOWS 10
 _Created by Rick Staa on 10/07/2017 - Version 2.0_
 
 ## Manual
@@ -18,7 +18,7 @@ For questions, issues and suggestions go to: https://github.com/rickstaa/Todoist
 
 ## FAQ 
  
-The workaround is not working what now?
+### The workaround is not working what now?
 
 - Make sure AutoHotkey is running on startup.
 
@@ -28,7 +28,7 @@ The workaround is not working what now?
 
 
 
-#### How does this workaround work?
+### How does this workaround work?
 
 A windows 10 universal app can be loaded by using its AppUserModelIDs. This is done by running the following command:
 
