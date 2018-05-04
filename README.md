@@ -8,7 +8,7 @@ This workaround add the following global TODOIST shortcuts to WIN 10:
 
 For questions, issues and suggestions go to: https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10
 
-# Installation Instructions
+#### Installation Instructions
 	1. [Download AutoHotKey.](https://autohotkey.com/)
     	2. Install AutoHotKey.
     	3. [Download the Workaround.](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/archive/master.zip)
@@ -16,7 +16,7 @@ For questions, issues and suggestions go to: https://github.com/rickstaa/Todoist
     	5. Go to the "Todoist_Global_Shortcuts_WIN10\TODOIST_AHK" folder.
     	6. Click on the "installer.vbs" file to install the workaround.
 
-# INSTRUCTIONS VBS workaround
+#### INSTRUCTIONS VBS workaround
 For the VBS workaround instructions see the README.txt in the TODOIST_VBS folder.
 
 ## FAQ 
@@ -31,7 +31,7 @@ The workaround is not working what now?
 
 
 
-# How does this workaround work?
+### How does this workaround work?
 
 A windows 10 universal app can be loaded by using its AppUserModelIDs. This is done by running the following command:
 
@@ -54,7 +54,7 @@ When the AppUserModelID is found, it can be used in to create an "AutoHotKey" fi
 
 
 
-# What is the VBS workaround?
+### What is the VBS workaround?
 
 This workaround is the first workaround I created it can be used by people that don't like using AutoHotKey. See the README.txt in the TODOIST_VBS folder 
 for instructions.
