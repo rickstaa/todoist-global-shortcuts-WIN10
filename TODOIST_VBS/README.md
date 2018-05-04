@@ -27,7 +27,7 @@ This workaround works without "Autohotkey". But it is harder to install and can 
 	* Start Menu folder (C:\ProgramData\Microsoft\Windows\Start Menu\)
 	* Programs folder (C:\ProgramData\Microsoft\Windows\Start Menu\Programs)
 
-#### _NOTES:_
+#### __NOTES:__
 Don't change the name of the *Todoist To-Do List and Task Manager* or the script will not work.
 
 ## FAQ
