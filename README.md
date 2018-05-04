@@ -5,8 +5,8 @@ _Created by Rick Staa on 10/07/2017 - Version 2.0_
 
 This workaround add the following global TODOIST shortcuts to WIN 10:
     
-    * alt+ctrl+a (Add new task)
-    * alt+ctrl+s (open todoist)
+* alt+ctrl+a (Add new task)
+* alt+ctrl+s (open todoist)
 
 For questions, issues and suggestions go to: https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10
 
