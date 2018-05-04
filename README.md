@@ -17,7 +17,7 @@ For questions, issues and suggestions go to: https://github.com/rickstaa/Todoist
 5. Go to the "Todoist_Global_Shortcuts_WIN10\TODOIST_AHK" folder.
 6. Click on the "installer.vbs" file to install the workaround.
 
-### INSTRUCTIONS VBS workaround
+### Instructions for the VBS workaround
 For the VBS workaround instructions see the README.txt in the TODOIST_VBS folder.
 
 ## FAQ 
