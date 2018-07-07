@@ -1,4 +1,4 @@
-﻿# This is a workaround to add global Todoist shortcuts to WINDOWS 10
+# This is a workaround to add global Todoist shortcuts to WINDOWS 10
 _Created by Rick Staa on 5/07/2017 - Version 1.0_
 
 ## Manual
@@ -27,10 +27,10 @@ This workaround works without "Autohotkey". But it is harder to install and can 
 	* Start Menu folder (C:\ProgramData\Microsoft\Windows\Start Menu\)
 	* Programs folder (C:\ProgramData\Microsoft\Windows\Start Menu\Programs)
 
-### NOTES:
+#### NOTES
 Don't change the name of the *Todoist To-Do List and Task Manager* or the script will not work.
 
 ## FAQ
 
-## How can I get help?
+### How can I get help?
 You can get help by go to https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues
