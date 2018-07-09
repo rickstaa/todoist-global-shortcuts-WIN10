@@ -24,7 +24,7 @@ For the VBS workaround instructions see the README.txt in the TODOIST_VBS folder
 
 ## FAQ 
  
-**The workaround is not working what now?**
+### The workaround is not working what now?
 
 - Make sure AutoHotkey is running on startup.
 
@@ -32,7 +32,7 @@ For the VBS workaround instructions see the README.txt in the TODOIST_VBS folder
 
 - Still not working go to https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues
 
-**I would like the shortcut to work with TODOIST web is this possible?**
+### I would like the shortcut to work with TODOIST web is this possible?
 This shortcut is meant for the windows 10 app. A shortcut autohotkey for the web version can be found on [this](https://github.com/mgroat/Todoist-Global-Hotkey) page.
 
 
