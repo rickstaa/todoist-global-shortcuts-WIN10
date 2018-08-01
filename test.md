@@ -4,7 +4,6 @@ Changelog
 
 (unreleased)
 ------------
-- Add(todoist): Added changelog. [rick.staa]
 - Merge branch 'master' of
   https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10 Adds an
   extra error message when people don't have the windows store app
