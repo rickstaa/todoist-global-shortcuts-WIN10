@@ -1,6 +1,9 @@
 # This is a workaround to add global Todoist shortcuts to WINDOWS 10
 _Created by Rick Staa on 10/07/2017 - Version 2.0_
 
+## Active bugs:
+- On my pc the todoist toggle stoped working see [Issue 5](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues/5)
+
 ## Manual
 
 This workaround add the following global TODOIST shortcuts to the todoist WINDOWS 10 app:
