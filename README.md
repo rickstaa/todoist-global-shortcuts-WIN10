@@ -1,9 +1,6 @@
 # This is a workaround to add global Todoist shortcuts to WINDOWS 10
 _Created by Rick Staa on 10/07/2017 - Version 2.0_
 
-## Active bugs:
-- On my pc the todoist toggle stoped working see [Issue 5](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues/5)
-
 ## Manual
 
 This workaround add the following global TODOIST shortcuts to the todoist WINDOWS 10 app:
@@ -20,7 +17,10 @@ For questions, issues and suggestions go to: https://github.com/rickstaa/Todoist
 3. [Download the Workaround.](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/archive/master.zip)    	
 4. Unzip the Workaround file.
 5. Go to the "Todoist_Global_Shortcuts_WIN10\TODOIST_AHK" folder.
-6. Click on the "installer.vbs" file to install the workaround.
+6. Click on the "installer.vbs" or "installer_todoist_preview.vbs" file to install the workaround.
+
+- **installer_todoist.vbs:**  Used to install the global shortcut for the regular Todoist windows 10 app.
+- **installer_todoist_preview.vbs:** Used to install the global shortcut for the "Todoist Preview" windows 10 app.
 
 ### Instructions for the VBS workaround
 For the VBS workaround instructions see the README.txt in the TODOIST_VBS folder.
