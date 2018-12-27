@@ -18,8 +18,8 @@ For questions, issues and suggestions go to: https://github.com/rickstaa/Todoist
 4. Unzip the Workaround file.
 5. Go to the "Todoist_Global_Shortcuts_WIN10\TODOIST_AHK" folder.
 6. Click on the `installer.vbs` or `installer_todoist_preview.vbs` file to install the workaround.
-    - **installer_todoist.vbs:**  Used to install the global shortcut for the regular Todoist windows 10 app.
-    - **installer_todoist_preview.vbs:** Used to install the global shortcut for the "Todoist Preview" windows 10 app.
+    - `installer_todoist.vbs`: Used to install the global shortcut for the regular Todoist windows 10 app.
+    - `installer_todoist_preview.vbs`: Used to install the global shortcut for the "Todoist Preview" windows 10 app.
 
 ### Instructions for the VBS workaround
 For the VBS workaround instructions see the README.txt in the TODOIST_VBS folder.
