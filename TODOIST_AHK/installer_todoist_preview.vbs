@@ -51,7 +51,7 @@ objFile.SkipLine
 strContents = objFile.ReadAll
 objFile.Close
 strFirstLine = "id := """ & pathStr & """ ; AppUserModelid"
-strTitle = "Title := ""Todoist: To-Do List and Task Manager"" ; Todoist window title"
+strTitle = "Title := ""Todoist Preview"" ; Todoist window title"
 strNewContents = strFirstLine & vbCrLf & strTitle & vbCrLf & vbCrLf & strContents
 
 Set objFile = filesys.OpenTextFile(strRename, ForWriting)

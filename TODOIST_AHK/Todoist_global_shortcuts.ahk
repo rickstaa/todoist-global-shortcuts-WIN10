@@ -1,4 +1,9 @@
-id := "" ; AppUserModelid
+id := "88449BC3.TodoistPreview_71ef4824z52ta!App" ; AppUserModelid
+Title := "Todoist Preview" ; Todoist window title
+
+
+
+
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
@@ -32,7 +37,6 @@ WaitTime := 1100 ; Adjust this time if the script is not working on program star
 ;!DO NOT CHANGE THE CODE AND SETTINGS BELOW UNLESS YOU KNOW WHAT YOU ARE DOING!
 SetTitleMatchMode, 2 ; IfWinExist settings
 DetectHiddenWindows, On
-Title := "Todoist: To-Do List and Task Manager" ; Todoist window title
 
 ;--Shortkey code--
 
@@ -59,7 +63,6 @@ IfWinNotExist, ahk_exe Todoist.Universal.exe
 }
 else
 {
-    Title := "Todoist: To-Do List and Task Manager"
     IfWinActive, %Title%
         WinMinimize, %Title%
     else
@@ -107,3 +110,15 @@ else
 		} 
 }
 return
+
+
+
+
+
+
+
+
+
+
+
+
