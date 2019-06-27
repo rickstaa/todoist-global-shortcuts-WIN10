@@ -1,14 +1,23 @@
+# requiring the environment of Ruby 2.3.x
 image: ruby:2.3
 
-variables:
-  JEKYLL_ENV: production
+# add bundle cache to 'vendor' for speeding up builds
+cache:
+  paths: 
+    - vendor/
 
+before_script:
+  - bundle install --path vendor
+
+# the 'pages' job will deploy and build your site to the 'public' path
 pages:
+  stage: deploy
   script:
-  - bundle install
-  - bundle exec jekyll build -d public
+    - bundle exec jekyll build -d public/
+  variables:
+    JEKYLL_ENV: production
+    LANG: "C.UTF-8"
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - gh-pages
