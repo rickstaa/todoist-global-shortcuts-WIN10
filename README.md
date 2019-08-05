@@ -1,6 +1,6 @@
 # Todoist global shortcuts workarround
-[![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green)
-[![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)
+[![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green)]
+[![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)]
 
 ## Manual
 
