@@ -1,5 +1,6 @@
-# This is a workaround to add global Todoist shortcuts to WINDOWS 10 (V2.0.0)
-:warning: **NOTE:** This repository is mirrored on gitlab if you want to contribute to this repository make sure you are on the [github](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10) repository. :warning:
+# Todoist global shortcuts workarround
+[![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green)
+[![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
 ## Manual
 
