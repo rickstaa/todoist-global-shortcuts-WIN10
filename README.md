@@ -1,6 +1,6 @@
 # Todoist global shortcuts workarround
-[![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green)]
-[![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)]
+[![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green)](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/pulse)
+[![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/blob/master/contributing.md)
 
 ## Manual
 
