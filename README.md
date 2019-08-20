@@ -70,7 +70,7 @@ for instructions.
 
 ## Contributing
 
-Contributions to this repository are welcome. See the [contribution guidelines](https://github.com/rickstaa/ros_conda_wrapper/blob/master/contributing.md) for more information.
+Contributions to this repository are welcome. See the [contribution guidelines](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/blob/master/contributing.md) for more information.
 
 ## License
 
