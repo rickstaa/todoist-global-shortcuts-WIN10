@@ -1,6 +1,6 @@
 # Todoist global shortcuts workarround
 [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green)](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/pulse)
-[![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/blob/master/contributing.md)
+[![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)](contributing.md)
 [![OS windows](https://img.shields.io/badge/OS-windows%2010-informational)](https://www.microsoft.com/en-us/p/todoist-to-do-list-and-task-manager/9nblggh1rl1k?activetab=pivot:overviewtab)
 
 ## Manual
@@ -70,8 +70,8 @@ for instructions.
 
 ## Contributing
 
-Contributions to this repository are welcome. See the [contribution guidelines](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/blob/master/contributing.md) for more information.
+Contributions to this repository are welcome. See the [contribution guidelines](contributing.md) for more information.
 
 ## License
 
-[MIT](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/blob/master/LICENSE)
+[MIT](LICENSE)
