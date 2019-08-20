@@ -74,4 +74,4 @@ Contributions to this repository are welcome. See the [contribution guidelines](
 
 ## License
 
-[MIT](https://github.com/rickstaa/ros_conda_wrapper/blob/master/LICENSE)
+[MIT](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/blob/master/LICENSE)
