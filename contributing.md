@@ -5,12 +5,41 @@ email, or any other method with the owners of this repository before making a ch
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
+## Find projects to work on
+
+Projects that are open for contributions can be found on the [issue tab](https://github.com/rickstaa/ros_conda_wrapper) and will be labelled with the `help wanted` tag. Projects with the `beginner` label are ideal for beginning programmers. If you find a project that spikes your interest, leave a comment. We will then assign you to this project. After you did one project, you will be added as a contributor after which you can attach yourself to projects to work on.
+
 ## Pull Request Process
 
 1.  Ensure any install or build dependencies are removed before the end of the layer when doing a build.
 2.  Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
-3.  Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
-4.  You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
+3.  Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/). To prevent errors you are recommended to use [the bumpversion tool](https://github.com/peritus/bumpversion) (Instructions cincluded below).
+4.  Update the `CHANGELOG.md` using the [auto-changelog tool](https://github.com/CookPete/auto-changelog) (Instructions included below).
+5.  You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
+
+### Bumpversion instructions
+
+The bumpversion tool by [@Peritus](https://github.com/peritus) is a small command line tool to simplify releasing software by updating all version strings in your source code by the correct increment. It also automatically creates commits and tags. The bumpversion tool can be used as follows:
+
+1.  Install the bumpversion tool in your python environment using the `pip install --upgrade bumpversion` command.
+2.  Go to the main repository folder.
+3.  Commit any staged changes.
+4.  Run the `bumpversion patch` command to increase the patch version (Example: v1.0.0 to v1.0.1).
+
+**NOTE:** If you add versioning to a file you have to add it to the `.bumpversion.cfg` file for it to be updated automatically by the bumpversion tool. More information on how to do this can be found on the [bumpversion documentation](https://github.com/CookPete/auto-changelog).
+
+### Auto-changelog instructions
+
+The auto-changelog tool by [@CookPete](https://github.com/CookPete/) is a small command line tool for generating a changelog from git tags and commit history. This tool can be used as follows:
+
+1.  Install NodeJS according to [the official NodeJS documentation](https://www.npmjs.com/get-npm).
+2.  Install the auto-changelog tool by running the `npm install -g auto-changelog` command.
+3.  Go to the main repositroy folder.
+4.  Commit any stages changes.
+5.  Bump the version using the bumpversion tool.
+6.  Run the `auto-changelog` command.
+7.  Commit the changes using `git commit -m "Updated CHANGELOG.md".
+7.  You can now push your changes to github and submit a pull request.
 
 ## Code of Conduct
 
