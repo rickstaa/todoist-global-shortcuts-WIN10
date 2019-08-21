@@ -19,7 +19,6 @@ This workaround works without "Autohotkey". But it is harder to install and can 
 #### _Add global shortcut to open Todoist_
 
 4.  Left click on the _Todoist To-Do List and Task Manager_
-
 5.  Set a keyboard shortcut in the "Keyboard Shortcut" field.
 
 #### _Add a global shortcut to open TODOIST and add task_
