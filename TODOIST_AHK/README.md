@@ -13,7 +13,6 @@ For questions, issues and suggestions go to: <https://github.com/rickstaa/Todois
 ### Installation Instructions
 
 1.  [Download AutoHotKey.](https://autohotkey.com/)
-
 2.  Install AutoHotKey.
 
 3.  [Download the Workaround.](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/archive/master.zip)
