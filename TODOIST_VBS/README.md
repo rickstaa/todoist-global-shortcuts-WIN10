@@ -9,11 +9,11 @@ This workaround works without "Autohotkey". But it is harder to install and can 
 
 ### Instructions
 
-**_Preparation_**
+#### _Preparation_
+
 1.  Press the WINDOWS key.
 
 2.  In the START MENU look for the Todoist program.
-
 3.  Drag Todoist to the "TODOIST_VBS" folder.
 
 #### _Add global shortcut to open Todoist_
