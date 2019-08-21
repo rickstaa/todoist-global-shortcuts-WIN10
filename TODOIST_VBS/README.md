@@ -38,6 +38,6 @@ Don't change the name of the _Todoist To-Do List and Task Manager_ or the script
 
 ## FAQ
 
-### How can I get help?
+### How can I get help
 
 You can get help by go to <https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues>

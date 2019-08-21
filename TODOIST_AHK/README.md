@@ -21,15 +21,13 @@ For questions, issues and suggestions go to: <https://github.com/rickstaa/Todois
 
 ## FAQ
 
-### The workaround is not working what now?
+### The workaround is not working what now
 
 -   Make sure AutoHotkey is running on startup.
-
 -   Ensure that you have the right user privileges to add files to your user startup folder.
-
 -   Still not working go to <https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues>
 
-### How does this workaround work?
+### How does this workaround work
 
 A windows 10 universal app can be loaded by using its AppUserModelIDs. This is done by running the following command:
 
@@ -42,7 +40,7 @@ is located on:
 
 When the AppUserModelID is found, it can be used in to create an "AutoHotKey" file. This workaround just automates this process.
 
-### What is the VBS workaround?
+### What is the VBS workaround
 
 This workaround is the first workaround I created it can be used by people that don't like using AutoHotKey. See the README.txt in the TODOIST_VBS folder 
 for instructions.

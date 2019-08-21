@@ -15,9 +15,9 @@ For questions, issues and suggestions go to: <https://github.com/rickstaa/Todois
 
 ### Installation Instructions
 
-1.  [Download AutoHotKey.](https://autohotkey.com/)
+1.  [Download AutoHotKey](https://autohotkey.com/).
 2.  Install AutoHotKey.
-3.  [Download the Workaround.](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/archive/master.zip)    	
+3.  [Download the Workaround](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/archive/master.zip).
 4.  Unzip the Workaround file.
 5.  Go to the "Todoist_Global_Shortcuts_WIN10\\TODOIST_AHK" folder.
 6.  Click on the `installer.vbs` or `installer_todoist_preview.vbs` file to install the workaround.
@@ -30,19 +30,17 @@ For the VBS workaround instructions see the README.txt in the TODOIST_VBS folder
 
 ## FAQ
 
-### The workaround is not working what now?
+### The workaround is not working what now
 
 -   Make sure AutoHotkey is running on startup.
-
 -   Ensure that you have the right user privileges to add files to your user startup folder.
-
 -   Still not working go to <https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues>
 
-### I would like the shortcut to work with TODOIST web is this possible?
+### I would like the shortcut to work with TODOIST web is this possible
 
 This shortcut is meant for the windows 10 app. A shortcut autohotkey for the web version can be found on [this](https://github.com/mgroat/Todoist-Global-Hotkey) page.
 
-### How does this workaround work?
+### How does this workaround work
 
 A windows 10 universal app can be loaded by using its AppUserModelIDs. This is done by running the following command:
 
@@ -55,10 +53,9 @@ is located on:
 
 When the AppUserModelID is found, it can be used in to create an "AutoHotKey" file. This workaround just automates this process.
 
-### What is the VBS workaround?
+### What is the VBS workaround
 
-This workaround is the first workaround I created it can be used by people that don't like using AutoHotKey. See the README.txt in the TODOIST_VBS folder 
-for instructions.
+This workaround is the first workaround I created it can be used by people that don't like using AutoHotKey. See the README.txt in the TODOIST_VBS folder for instructions.
 
 ## Contributing
 
