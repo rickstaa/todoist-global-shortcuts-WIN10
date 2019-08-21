@@ -37,9 +37,7 @@ This workaround works without "Autohotkey". But it is harder to install and can 
 11. Place the "TODOIST_VBS" folder in one of the following folders that are scanned by windows for custom user keyboard shortcuts.
 
     -   Desktop (C:\\Desktop)
-
     -   Start Menu folder (C:\\ProgramData\\Microsoft\\Windows\\Start Menu)
-
     -   Programs folder (C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs)
 
 #### NOTES
