@@ -27,7 +27,6 @@ This workaround works without "Autohotkey". But it is harder to install and can 
 8.  Call the new shortcut anything you like.
 9.  Left click on the Shortcut.
 10. Set a keyboard shortcut in the "Keyboard Shortcut" field.
-
 11. Place the "TODOIST_VBS" folder in one of the following folders that are scanned by windows for custom user keyboard shortcuts.
 
     -   Desktop (C:\\Desktop)
