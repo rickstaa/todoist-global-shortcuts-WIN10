@@ -1,5 +1,6 @@
 # Todoist global shortcuts workarround
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e75853cacd46490a85cd32996479f160)](https://www.codacy.com/app/rickstaa/Todoist_Global_Shortcuts_WIN10?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rickstaa/Todoist_Global_Shortcuts_WIN10&amp;utm_campaign=Badge_Grade)
 [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green)](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/pulse)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)](contributing.md)
 [![OS windows](https://img.shields.io/badge/OS-windows%2010-informational)](https://www.microsoft.com/en-us/p/todoist-to-do-list-and-task-manager/9nblggh1rl1k?activetab=pivot:overviewtab)
