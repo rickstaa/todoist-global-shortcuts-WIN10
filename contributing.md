@@ -9,7 +9,6 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 Projects that are open for contributions can be found on the [issue tab](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues) and will be labelled with the `help wanted` tag. Projects with the `beginner` label are ideal for beginning programmers. If you find a project that spikes your interest, leave a comment. We will then assign you to this project. After you did one project, you will be added as a contributor after which you can attach yourself to projects to work on. You can also submit a feature you would like to work on yourself by by opening [an issue](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues/new).
 
-
 ## Forking process
 
 1.  Fork the main [repository](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10)

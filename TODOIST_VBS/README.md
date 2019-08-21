@@ -9,27 +9,37 @@ This workaround works without "Autohotkey". But it is harder to install and can 
 
 ### Instructions
 
-#### _Preparation_
-
+**_Preparation_**
 1.  Press the WINDOWS key.
+
 2.  In the START MENU look for the Todoist program.
+
 3.  Drag Todoist to the "TODOIST_VBS" folder.
 
 #### _Add global shortcut to open Todoist_
 
 4.  Left click on the _Todoist To-Do List and Task Manager_
+
 5.  Set a keyboard shortcut in the "Keyboard Shortcut" field.
 
 #### _Add a global shortcut to open TODOIST and add task_
 
 6.  Left click on the _script.vbs_ file.
+
 7.  Click create a shortcut.
+
 8.  Call the new shortcut anything you like.
+
 9.  Left click on the Shortcut.
+
 10. Set a keyboard shortcut in the "Keyboard Shortcut" field.
+
 11. Place the "TODOIST_VBS" folder in one of the following folders that are scanned by windows for custom user keyboard shortcuts.
+
     -   Desktop (C:\\Desktop)
+
     -   Start Menu folder (C:\\ProgramData\\Microsoft\\Windows\\Start Menu)
+
     -   Programs folder (C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs)
 
 #### NOTES
