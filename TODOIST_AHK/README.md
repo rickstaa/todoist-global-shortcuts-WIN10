@@ -25,7 +25,6 @@ For questions, issues and suggestions go to: <https://github.com/rickstaa/Todois
 
 -   Make sure AutoHotkey is running on startup.
 -   Ensure that you have the right user privileges to add files to your user startup folder.
-
 -   Still not working go to <https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues>
 
 ### How does this workaround work
