@@ -15,7 +15,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;
 ; This AutoHotkey script adds global TODOIST shortcuts to WIN 10
 ;     - alt+ctrl+a (Add new task)
-;     - alt+ctrl+s (open todoist)
+;     - alt+ctrl+t (open todoist)
 ;
 ; For questions, issues and suggestions go to: https://rickstaa.github.io/Todoist_Global_Shortcuts_WIN10/
 ;
@@ -40,7 +40,7 @@ DetectHiddenWindows, On
 
 ;--Shortkey code--
 
-; Open todoist with alt+ctrl+t shortcu
+; Open todoist with alt+ctrl+t shortcut
 !^t::
 
 ; Since Windows apps are hard to run the install.vbs script first need to find your unique UserAppModelid
