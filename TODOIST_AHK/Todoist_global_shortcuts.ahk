@@ -1,9 +1,5 @@
-id := "88449BC3.TodoistPreview_71ef4824z52ta!App" ; AppUserModelid
+id := "<APPUSERMODELID>" ; AppUserModelid
 Title := "Todoist Preview" ; Todoist window title
-
-
-
-
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
@@ -110,15 +106,3 @@ else
 		} 
 }
 return
-
-
-
-
-
-
-
-
-
-
-
-
