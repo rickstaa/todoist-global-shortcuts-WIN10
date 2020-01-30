@@ -1,6 +1,6 @@
 # This is a workaround to add global Todoist shortcuts to WINDOWS 10
 
-_Created by Rick Staa on 5/07/2017 - Version 1.0_
+_Created by Rick Staa on 5/07/2017 - Version 1.0.0_
 
 ## Manual
 

@@ -7,7 +7,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ;----------TODOIST global shortcuts WIN10 workaround----------
-; *Created on 05/07/2017 by Rick Staa - Version 1.0*
+; *Created on 05/07/2017 by Rick Staa - Version 1.0.0*
 ;
 ; This AutoHotkey script adds global TODOIST shortcuts to WIN 10
 ;     - alt+ctrl+a (Add new task)
