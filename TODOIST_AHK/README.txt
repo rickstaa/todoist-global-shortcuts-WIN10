@@ -19,6 +19,7 @@ For questions, issues and suggestions go to: https://github.com/rickstaa/Todoist
 7. Click on the "installer.vbs" file to install the workaround.
     -   Use the `installer.vbs` file to install the global shortcut for the regular "Todoist" windows 10 app.
     -   Use the `installer_todoist_preview.vbs` file to install the global shortcut for the "Todoist Preview" windows 10 app.
+8. Start AutoHotKey and the "Todoist_global_shortcuts" script (Found in the user-startup folder) or restart the PC for the changes to take effect.
 
 ## FAQ 
  
