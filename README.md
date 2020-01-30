@@ -1,35 +1,45 @@
 # Todoist global shortcuts workarround
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e75853cacd46490a85cd32996479f160)](https://www.codacy.com/app/rickstaa/Todoist_Global_Shortcuts_WIN10?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rickstaa/Todoist_Global_Shortcuts_WIN10&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e75853cacd46490a85cd32996479f160)](https://www.codacy.com/app/rickstaa/Todoist_Global_Shortcuts_WIN10?utm_source=github.com&utm_medium=referral&utm_content=rickstaa/Todoist_Global_Shortcuts_WIN10&utm_campaign=Badge_Grade)
 [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green)](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/pulse)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)](contributing.md)
 [![os windows](https://img.shields.io/badge/os-windows%2010-informational)](https://www.microsoft.com/en-us/p/todoist-to-do-list-and-task-manager/9nblggh1rl1k?activetab=pivot:overviewtab)
 
 ## Manual
 
-This workaround add the following global TODOIST shortcuts to the todoist WINDOWS 10 app:
+Since Todoist its Windows 10 app doesn’t support global shortcuts at the moment. I made 2 workarounds that add the "open Todoist" and "Add new Todoist tak" global shortcuts to Win 10.
 
--   alt+ctrl+a (Add new task)
--   alt+ctrl+t (open todoist)
+    1. AutoHotKey workaround (Easy to set up, fast and Reliable)
+    2. Vbs Workaround (Hard to setup, can be slow)
+
+These workarounds add the following global TODOIST shortcuts to WIN 10:
+
+    - alt+ctrl+a (Add new task)
+    - alt+ctrl+s (open todoist)
 
 For questions, issues and suggestions go to: <https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10>.
 
 ### Installation Instructions
 
-1.  [Download AutoHotKey](https://autohotkey.com/).
+To install the Todoist global shortcuts please perform the steps below:
 
-2.  Install AutoHotKey.
+1.  [Download the WIN 10 Todoist app](https://www.microsoft.com/en-us/p/todoist-to-do-list-and-task-manager/9nblggh1rl1k?activetab=pivot:overviewtab)
 
-3.  [Download the Workaround](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/archive/master.zip).
+2.  [Download AutoHotKey](https://autohotkey.com/).
 
-4.  Unzip the Workaround file.
+3.  Install AutoHotKey.
 
-5.  Go to the "Todoist_Global_Shortcuts_WIN10\\TODOIST_AHK" folder.
+4.  [Download the Workaround](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/archive/master.zip).
 
-6.  Click on the `installer.vbs` or `installer_todoist_preview.vbs` file to install the workaround.
+5.  Unzip the Workaround file.
 
+6.  Go to the "Todoist_Global_Shortcuts_WIN10\\TODOIST_AHK" folder.
+
+7.  Click on the `installer.vbs` or `installer_todoist_preview.vbs` file to install the workaround.
     -   Use the `installer.vbs` file to install the global shortcut for the regular "Todoist" windows 10 app.
     -   Use the `installer_todoist_preview.vbs` file to install the global shortcut for the "Todoist Preview" windows 10 app.
+
+[🎥 A video of the installation procedure can be found here](https://youtu.be/ebrUnpQdHzI).
 
 ### Instructions for the VBS workaround
 
