@@ -1,6 +1,6 @@
 # Todoist global shortcuts workarround
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7d74050ad94c482ca22bf9fdb931b8cd)](https://www.codacy.com/manual/rickstaa/Todoist_Global_Shortcuts_WIN10?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rickstaa/Todoist_Global_Shortcuts_WIN10&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7d74050ad94c482ca22bf9fdb931b8cd)](https://www.codacy.com/manual/rickstaa/Todoist_Global_Shortcuts_WIN10?utm_source=github.com&utm_medium=referral&utm_content=rickstaa/Todoist_Global_Shortcuts_WIN10&utm_campaign=Badge_Grade)
 [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green)](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/pulse)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)](contributing.md)
 [![os windows](https://img.shields.io/badge/os-windows%2010-informational)](https://www.microsoft.com/en-us/p/todoist-to-do-list-and-task-manager/9nblggh1rl1k?activetab=pivot:overviewtab)
@@ -39,7 +39,7 @@ To install the Todoist global shortcuts please perform the steps below:
     -   Use the `installer.vbs` file to install the global shortcut for the regular "Todoist" windows 10 app.
     -   Use the `installer_todoist_preview.vbs` file to install the global shortcut for the "Todoist Preview" windows 10 app.
 
-8. Start AutoHotKey and the "Todoist_global_shortcuts" script (Found in the user-startup folder) or restart the PC for the changes to take effect.
+8.  Start AutoHotKey and the "Todoist_global_shortcuts" script (Found in the user-startup folder) or restart the PC for the changes to take effect.
 
 [🎥 A video of the installation procedure can be found here](https://youtu.be/ebrUnpQdHzI).
 
