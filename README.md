@@ -17,7 +17,7 @@ These workarounds add the following global TODOIST shortcuts to WIN 10:
     - alt+ctrl+a (Add new task)
     - alt+ctrl+s (open todoist)
 
-For questions, issues and suggestions go to: <https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10>.
+For questions, issues and suggestions go to: <https://github.com/rickstaa/todoist-global-shortcuts-WIN10>.
 
 ### Installation Instructions
 
@@ -29,7 +29,7 @@ To install the Todoist global shortcuts please perform the steps below:
 
 3.  Install AutoHotKey.
 
-4.  [Download the Workaround](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/archive/master.zip).
+4.  [Download the Workaround](https://github.com/rickstaa/todoist-global-shortcuts-WIN10/archive/master.zip).
 
 5.  Unzip the Workaround file.
 
@@ -53,7 +53,7 @@ For the VBS workaround instructions see the README.txt in the TODOIST_VBS folder
 
 -   Make sure AutoHotkey is running on startup.
 -   Ensure that you have the right user privileges to add files to your user startup folder.
--   Still not working go to <https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues>
+-   Still not working go to <https://github.com/rickstaa/todoist-global-shortcuts-WIN10/issues>
 
 ### I would like the shortcut to work with TODOIST web is this possible
 
