@@ -1,3 +1,7 @@
+![GitHub Repo stars](https://img.shields.io/github/stars/rickstaa/todoist-global-shortcuts-WIN10?style=social)
+![GitHub forks](https://img.shields.io/github/forks/rickstaa/todoist-global-shortcuts-WIN10?style=social)
+![GitHub issues](https://img.shields.io/github/issues/rickstaa/todoist-global-shortcuts-WIN10?style=social)
+
 ## Todoist Windows 10 global shortcuts
 
 Since Todoist, its Windows 10 app doesn't support global shortcuts at the moment. I made a small workaround that adds the "open Todoist" and "Add new Todoist task" global shortcuts to Win 10. These workarounds add the following global TODOIST shortcuts to WIN 10:
