@@ -18,7 +18,7 @@ For questions, issues, and suggestions, go to <https://github.com/rickstaa/todoi
 
 To install the Todoist global shortcuts, please perform the steps below:
 
-1.  [Download the WIN 10 Todoist app](https://www.microsoft.com/en-us/p/todoist-to-do-list-and-task-manager/9nblggh1rl1k?activetab=pivot:overviewtab)
+1.  [Download the WIN 10 Todoist app](https://todoist.com/downloads/windows?lang=en)
 
 2.  [Download AutoHotKey](https://autohotkey.com/).
 
