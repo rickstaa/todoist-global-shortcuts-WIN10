@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+## Todoist Windows 10 global shortcuts
 
-You can use the [editor on GitHub](https://github.com/rickstaa/todoist-global-shortcuts-WIN10/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Since Todoist, its Windows 10 app doesn't support global shortcuts at the moment. I made a small workaround that adds the "open Todoist" and "Add new Todoist task" global shortcuts to Win 10. These workarounds add the following global TODOIST shortcuts to WIN 10:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    - alt+ctrl+a (Add new task)
+    - alt+ctrl+s (open Todoist)
 
-### Markdown
+For questions, issues and suggestions go to [the github repository issues page](https://github.com/rickstaa/Todoist_Global_Shortcuts_WIN10/issues).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Installation Instructions
 
-```markdown
-Syntax highlighted code block
+To install the Todoist global shortcuts, please perform the steps below:
 
-# Header 1
-## Header 2
-### Header 3
+1.  [Download the WIN 10 Todoist app](https://www.microsoft.com/en-us/p/todoist-to-do-list-and-task-manager/9nblggh1rl1k?activetab=pivot:overviewtab)
 
-- Bulleted
-- List
+2.  [Download AutoHotKey](https://autohotkey.com/).
 
-1. Numbered
-2. List
+3.  Install AutoHotKey.
 
-**Bold** and _Italic_ and `Code` text
+4.  [Download the Workaround](https://github.com/rickstaa/todoist-global-shortcuts-WIN10/archive/master.zip).
 
-[Link](url) and ![Image](src)
-```
+5.  Unzip the Workaround file.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+6.  Go to the "todoist-global-shortcuts-WIN10\\TODOIST_AHK" folder.
 
-### Jekyll Themes
+7.  Click on the `installer.vbs` file to install the workaround.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rickstaa/todoist-global-shortcuts-WIN10/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+8.  Start AutoHotKey and the "Todoist_global_shortcuts" script (Found in the user-startup folder) or restart the PC for the changes to take effect.
 
-### Support or Contact
+[🎥 A video of the installation procedure can be found here](https://youtu.be/ebrUnpQdHzI).
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## FAQ
+
+### The workaround is not working what now
+
+-   Make sure AutoHotkey is running on startup.
+-   Ensure that you have the right user privileges to add files to your user-startup folder.
+-   Still not working go to <https://github.com/rickstaa/todoist-global-shortcuts-WIN10/issues>
+
+### I would like the shortcut to work with TODOIST web
+
+This shortcut is meant for the windows 10 app. A shortcut AutoHotkey for the web version can be found on [this](https://github.com/mgroat/Todoist-Global-Hotkey) page.
+
+## Contributing
+
+Contributions to this repository are welcome. See the [contribution guidelines](https://github.com/rickstaa/todoist-global-shortcuts-WIN10/blob/master/contributing.md) for more information.
+
+## License
+
+[MIT](https://github.com/rickstaa/todoist-global-shortcuts-WIN10/blob/master/LICENSE)
