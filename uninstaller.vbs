@@ -6,29 +6,23 @@
 
 '- Get folder paths
 Const ssfSTARTUP = &H7
-Const ssfPROGRAM = &H26&
-
 Set oShell = CreateObject("Shell.Application")
 Set startupFolder = oShell.NameSpace(ssfSTARTUP)
-Set programFolder = oShell.NameSpace(ssfPROGRAM)
-Set appsFolder = oShell.NameSpace("shell:AppsFolder")
-
 scriptdir = CreateObject("Scripting.FileSystemObject").GetParentFolderName(WScript.ScriptFullName)
 
-'- Create AHK move paths
+'- Retrieve AHK remove paths
 dim filesys
 set filesys = CreateObject("Scripting.FileSystemObject")
-ahPath = scriptdir & "\Todoist_global_shortcuts.ahk"
-ahMovePath = startupFolder.Self.Path & "\Todoist_global_shortcuts.ahk"
-ahMovepath2 = startupFolder.Self.Path & "\Todoist_global_shortcuts.ahk.bak"
+ahRemovePath = startupFolder.Self.Path & "\todoist_global_shortcuts.ahk"
+ahRemovePath2 = startupFolder.Self.Path & "\todoist_global_shortcuts.ahk.bak"
 
-'Remove file from startupFolder
-If filesys.FileExists(ahMovePath) Then
-   filesys.DeleteFile ahMovePath
+'- Remove file from startupFolder
+If filesys.FileExists(ahRemovePath) Then
+   filesys.DeleteFile ahRemovePath
 End If
-If filesys.FileExists(ahMovePath2) Then
-   filesys.DeleteFile ahMovePath2
+If filesys.FileExists(ahRemovePath2) Then
+   filesys.DeleteFile ahRemovePath2
 End If
 
 '- Print message
-WScript.Echo "Workaround successfully deinstalled"
+WScript.Echo "Todoist global shortcuts workaround successfully removed"
