@@ -32,9 +32,7 @@ To install the Todoist global shortcuts, please perform the steps below:
 
 7.  Click on the `installer.vbs` file to install the workaround.
 
-8.  Start AutoHotKey and the "Todoist_global_shortcuts" script (Found in the user-startup folder) or restart the PC for the changes to take effect.
-
-[🎥 A video of the installation procedure can be found here](https://youtu.be/ebrUnpQdHzI).
+8.  Start AutoHotKey and the `todoist_global_shortcuts.ahk` script (Found in the user-startup folder) or restart the PC for the changes to take effect.
 
 ## FAQ
 
