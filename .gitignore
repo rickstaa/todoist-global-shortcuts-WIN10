@@ -2,4 +2,4 @@
 
 # Files to ignore
 .vscode
-
+*.ahk.bak
