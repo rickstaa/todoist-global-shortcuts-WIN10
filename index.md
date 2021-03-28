@@ -1,6 +1,6 @@
-![GitHub Repo stars](https://img.shields.io/github/stars/rickstaa/todoist-global-shortcuts-WIN10?style=social)
-![GitHub forks](https://img.shields.io/github/forks/rickstaa/todoist-global-shortcuts-WIN10?style=social)
-![GitHub issues](https://img.shields.io/github/issues/rickstaa/todoist-global-shortcuts-WIN10?style=social)
+[![GitHub Repo stars](https://img.shields.io/github/stars/rickstaa/todoist-global-shortcuts-WIN10?style=social)](https://github.com/rickstaa/todoist-global-shortcuts-WIN10/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/rickstaa/todoist-global-shortcuts-WIN10?style=social)](https://github.com/rickstaa/todoist-global-shortcuts-WIN10/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/rickstaa/todoist-global-shortcuts-WIN10?style=social)](https://github.com/rickstaa/todoist-global-shortcuts-WIN10/issues)
 
 ## Todoist Windows 10 global shortcuts
 
